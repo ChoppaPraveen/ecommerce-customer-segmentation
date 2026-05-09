@@ -52,3 +52,22 @@ and K-Means Clustering to enable targeted marketing strategies.
 - **Version Control:** Git & GitHub
 
 ## 📁 Project Structure
+
+ecommerce-segmentation/
+├── notebooks/
+│   ├── 01_EDA_India_Ecommerce.ipynb   ← Sales EDA
+│   ├── 02_RFM_Analysis.ipynb          ← RFM Scoring
+│   └── 03_KMeans_Clustering.ipynb     ← Customer Clusters
+├── outputs/                           ← All 9 plots
+└── README.md
+
+## 🚀 How to Run
+```bash
+git clone https://github.com/ChoppaPraveen/ecommerce-customer-segmentation.git
+pip install -r requirements.txt
+python -m jupyter notebook
+# Run notebooks in order: 01 → 02 → 03
+```
+
+## 📬 Contact
+**Choppa Praveen** — github.com/ChoppaPraveen
